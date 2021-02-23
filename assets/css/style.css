@@ -143,7 +143,7 @@ header {
 
 #email-section {
     background-color: var(--second-color);
-    margin-top: 15px;
+    margin-top: 45px;
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -190,4 +190,45 @@ header {
 
 .subscribe-input-button:focus {
     outline: 0;
+}
+
+/* ************************** */
+/* info-text-section */
+
+#info-text-section {
+    margin-top: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.title-info-text-section {
+    min-width: 35%;
+}
+
+.title-info-text-section span {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-info-text-section div {
+    border-bottom: 3px solid black;
+}
+
+.title-info-text-section div:nth-child(2) {
+    width: 80px; 
+}
+
+.title-info-text-section div:nth-child(3) {
+    margin-top: 20px;
+    width: 40px;
+}
+
+.title-info-text-2-section {
+    min-width: 65%;
+}
+
+.title-info-text-2-section p {
+    line-height: 2;
+    font-weight: lighter;
 }
