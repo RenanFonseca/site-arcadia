@@ -21,8 +21,16 @@ body {
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
 .just-between {
     justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
 }
 
 /* ************************** */
@@ -128,4 +136,58 @@ header {
     background-repeat: no-repeat;
     margin-top: 30px;
     margin-left: 20px;
+}
+
+/* ************************** */
+/* email-section */
+
+#email-section {
+    background-color: var(--second-color);
+    margin-top: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.subscribe-text {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.subscribe-inputs {
+    text-align: center;
+}
+
+.subscribe-input-email {
+    width: 220px;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+
+}
+
+.subscribe-input-email:focus {
+    outline: 0;
+}
+
+.subscribe-input-email::placeholder {
+
+}
+
+.subscribe-input-button {
+    height: 45px;
+    width: 110px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: var(--tertiary-color);
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe-input-button:focus {
+    outline: 0;
 }
