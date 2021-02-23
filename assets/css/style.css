@@ -232,3 +232,70 @@ header {
     line-height: 2;
     font-weight: lighter;
 }
+
+
+/* ************************** */
+/* blog-section */
+
+
+#blog-section {
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-top: 45px;
+}
+
+.img-blog img {
+    width: 300px;
+    height: 420px;
+    position: relative;
+    z-index: -1;
+}
+
+.title-blog {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: -75px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 24px;
+
+    cursor: pointer;
+
+
+    background-color: var(--tertiary-color);
+
+}
+
+.blog-card p {
+    text-align: justify;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* ************************** */
+/* gallery-section */
+
+
+/* ************************** */
+/* footer */
+
+footer {
+    border-top: 3px solid black;
+    margin-top: 45px;
+    padding-top: 25px;
+   align-items: center;
+}
+
+footer .social-media {
+    margin-bottom: 25px;
+}
+
+footer .copyright {
+    margin-top: 45px;
+}
